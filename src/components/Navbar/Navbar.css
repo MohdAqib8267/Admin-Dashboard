@@ -1,0 +1,57 @@
+.Navbar{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(244, 238, 244);
+    position:sticky;
+    top: 0;
+    z-index: 9999;
+}
+.Navbar-wrapper{
+    height: 100%;
+    padding: 0 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    font-weight: bolder;
+    font-family:🅵🅾🅽🆃 🅾🅽🅻🅸🅽🅴;
+    font-size: 1.7rem;
+    color: navy;
+    cursor: pointer;
+}
+.navbar-Icon-Container{
+    position: relative;
+    color: navy;
+    cursor: pointer;
+
+}
+.right-navbar{
+    display: flex;
+    gap: 2rem;
+}
+.notification-badge{
+    position: absolute;
+    top: -5px;
+    right: -7px;
+    background-color: blue;
+    width: 16px;
+    height: 16px;
+    display: flex;
+    border-radius: 50%;
+    font-size: 11px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+
+}
+.profile-img>img{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+}

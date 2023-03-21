@@ -1,0 +1,36 @@
+.UserList{
+    flex: 4;
+    background-color: rgb(255,255,255);
+    border-radius: 10px;
+}
+.userListUser{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.4rem;
+}
+.userListImg{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.css-gl260s-MuiDataGrid-columnHeadersInner{
+   
+    background-color: rgb(249, 244, 249);
+    font-size: 1.2rem;
+}
+.userListEdit{
+    border: none;
+    background: #555;
+    padding: 4px 12px;
+    border-radius:10px;
+    cursor: pointer;
+    color: snow;
+}
+.Delete{
+    color: red;
+    cursor: pointer;
+    margin-left: 10px;
+}

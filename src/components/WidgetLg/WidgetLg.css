@@ -1,0 +1,65 @@
+.WidgetLg{
+
+    flex: 2;
+    box-shadow: 10px 10px 19px 1px rgba(0,0,0,0.23);
+    -webkit-box-shadow: 10px 10px 19px 1px rgba(0,0,0,0.23);
+    -moz-box-shadow: 10px 10px 19px 1px rgba(0,0,0,0.23);
+    background-color: rgb(255,255,255);
+    border-radius: 10px;
+    padding: 20px;
+}
+.widgetLgUser>img{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.widgetLgTr{
+    width: 100%;
+   
+    display: flex;
+}
+.widgetLgUser{
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    
+}
+.widgetLgTr>:nth-child(1){
+    flex: 2;
+}
+.grid{
+   
+    flex: 1 1 0%;
+    align-items: center;
+    display: flex;
+}
+tr{
+    margin: 20px 0px;
+}
+.widgetLgTable{
+   
+    width: 100%;
+}
+.widgetLgDate{
+    color: gray;
+}
+.widgetLgAmount{
+    color: gray;
+}
+
+
+
+.widgetLgStatus .Approved{
+    color: green;
+    background-color: #e5faf2;
+}
+.widgetLgStatus .Decliend{
+    color: red; 
+    background-color: #fff0f1;
+}
+.widgetLgStatus .Pending{
+    color: blue;
+   
+    color: #2a7ade;
+}
